@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "sava links",
+  "description": "All of links for needed future",
+  "version": "1.0",
+
+  "action": {
+    "default_icon": "img/images.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs"]
+}

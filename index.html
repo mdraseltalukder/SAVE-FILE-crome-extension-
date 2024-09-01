@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save Files</title>
+  </head>
+  <body>
+    <style>
+      .main {
+        width: 500px;
+        margin: auto;
+        background: #f1faee;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: left;
+        height: 350px;
+        padding: 40px;
+      }
+      .input {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        font-size: 22px;
+      }
+      .btns {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .btn {
+        color: white;
+        background: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 7px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .list {
+        text-align: left;
+        /* border: 1px solid gainsboro; */
+        padding: 20px;
+      }
+      .list li a {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+    </style>
+    <section class="main">
+      <input class="input" type="text" placeholder="insert your text" />
+      <div class="btns">
+        <button class="btn btn1">Save link</button>
+        <button class="btn btn2">Save current tab</button>
+        <button class="btn btn3">Delete all tabs</button>
+      </div>
+      <ol class="list">
+        <!-- <li><a href="">Hello World</a></li> -->
+      </ol>
+    </section>
+    <script src="java.js"></script>
+  </body>
+</html>
